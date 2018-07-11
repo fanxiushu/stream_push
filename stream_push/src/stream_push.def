@@ -1,0 +1,16 @@
+
+; stream_push.def : Declares the module parameters.
+
+LIBRARY      "stream_push.dll"
+
+EXPORTS
+	stream_push_create
+	stream_push_destroy
+	stream_push_post_encoded_frame
+	stream_push_modify_url
+	stream_push_add_url
+	stream_push_remove_url
+	stream_push_query_url
+	stream_push_query_state
+	stream_push_free_memory
+	simple_video_encode
